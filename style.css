@@ -1,0 +1,121 @@
+body {
+  background-image: url(./pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+}
+.girl {
+  width: 365px;
+  margin-left: 468px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.L1 {
+  text-align: center;
+  font-size: 26px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 900;
+}
+.div-2 {
+  background-color: white;
+  width: 365px;
+  display: inline-block;
+  margin-left: 468px;
+  margin-top: -3px;
+  height: 420px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.L2 {
+  text-align: center;
+  font-weight: 500;
+}
+.L3 {
+  font-size: 15px;
+  text-align: center;
+  font-weight: 500;
+}
+.L4 {
+  text-align: center;
+  font-weight: 500;
+}
+.div-3 {
+  background-color: hsl(225, 100%, 98%);
+  height: 66px;
+  margin-left: 14px;
+  margin-right: 24px;
+  border-radius: 10px;
+}
+.plan {
+  margin-left: 59px;
+  font-size: 16px;
+  font-weight: 900;
+}
+.price {
+  margin-left: 59px;
+}
+.icon-music {
+  float: left;
+  margin-top: 7px;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 50%;
+}
+.change {
+  float: right;
+  margin-top: -44px;
+  margin-right: 22px;
+  color: hsl(245, 75%, 52%);
+}
+.div-4 {
+  background-color: hsl(245, 75%, 52%);
+  height: 30px;
+  margin-top: 39px;
+  height: 49px;
+  padding-top: 1px;
+  margin-left: 14px;
+  margin-right: 24px;
+  border-radius: 10px;
+}
+.payment {
+  text-align: center;
+  color: hsl(225, 100%, 94%);
+  font-size: 15px;
+  font-weight: 700;
+}
+.cancel {
+  text-align: center;
+  margin-top: 35px;
+  font-weight: 900;
+  color: gray;
+}
+.rights{
+    margin-top: 40px;
+    margin-left: 10px;
+}
+@media only screen and (max-width: 425px) {
+  .girl {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .div-2 {
+    width: 100%;
+    margin-left: 0px;
+  }
+  body {
+    background-image: url(./pattern-background-mobile.svg);
+  }
+}
+.change:hover {
+  color: hsl(245, 73%, 67%, 1);
+  text-decoration: underline;
+  cursor: pointer;
+  transition: 3s ease;
+}
+.div-4:hover {
+  background-color: hsl(245, 73%, 67%, 1);
+  cursor: pointer;
+}
+.cancel:hover {
+  cursor: pointer;
+  color: black;
+}
